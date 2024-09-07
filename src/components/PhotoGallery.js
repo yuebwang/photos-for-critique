@@ -1,6 +1,4 @@
 import React, { useState, useCallback } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import './PhotoGallery.css';
 
 function PhotoGallery({ photos, onPhotoSelect, onDeletePhoto }) {
@@ -54,7 +52,7 @@ function PhotoGallery({ photos, onPhotoSelect, onDeletePhoto }) {
               onClick={(e) => handleDelete(e, photo._id)}
               aria-label="Delete photo"
             >
-              <FontAwesomeIcon icon={faTrash} />
+              <span>🗑️</span>
             </button>
           </div>
         );
