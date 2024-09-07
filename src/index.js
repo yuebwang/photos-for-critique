@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-library.add(faTrash);
+
 
 ReactDOM.render(
   <React.StrictMode>
