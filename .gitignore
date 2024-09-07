@@ -24,3 +24,14 @@ yarn-error.log*
 
 node_modules/
 .env
+
+
+# Ignore image uploads and other large files
+/uploads/
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.mp4
+
+node_modules/
