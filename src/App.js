@@ -91,7 +91,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Photo Critique App</h1>
+      <h1>Photo for Critique</h1>
       <PhotoUpload onPhotoUploaded={handlePhotoUploaded} />
       <PhotoGallery 
         photos={photos} 
